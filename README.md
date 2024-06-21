@@ -6,6 +6,10 @@ Prolog (Programming in Logic) is a high-level programming language associated wi
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
+### ✅ Requirements
+
+- [SWI Prolog](https://www.swi-prolog.org/download/stable)
+
 ### 🏆 Run
 
 - Open SWI Prolog
