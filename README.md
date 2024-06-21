@@ -34,5 +34,22 @@ Y = kate ;
 true.
 
 2 ?- solve24(4, 8, 3, 1, Expr).
-Expr = (4 + 8) * (3 - 1) ;
+Expr = (4+8)*(3-1) ;
+Expr = (8+4)*(3-1) ;
+Expr = (3-1)*(4+8) ;
+Expr = (3-1)*(8+4) ;
+false.
+```
+
+- Run `prime_factor.pl`
+
+```
+1 ?- [prime_factor].
+true.
+
+2 ?- prime_factors(84, Factors).
+Factors = [7, 3, 2, 2] .
+
+3 ?- prime_factors(101, Factors). 
+Factors = [101] .
 ```
